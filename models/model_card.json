@@ -1,0 +1,38 @@
+{
+  "model_name": "Voting Ensemble",
+  "timestamp": "20261003_125424",
+  "dataset": "Flood Prediction (flood.csv)",
+  "target": "FloodProbability",
+  "feature_names": [
+    "MonsoonIntensity",
+    "TopographyDrainage",
+    "RiverManagement",
+    "Deforestation",
+    "Urbanization",
+    "ClimateChange",
+    "DamsQuality",
+    "Siltation",
+    "AgriculturalPractices",
+    "Encroachments",
+    "IneffectiveDisasterPreparedness",
+    "DrainageSystems",
+    "CoastalVulnerability",
+    "Landslides",
+    "Watersheds",
+    "DeterioratingInfrastructure",
+    "PopulationScore",
+    "WetlandLoss",
+    "InadequatePlanning",
+    "PoliticalFactors"
+  ],
+  "performance": {
+    "test_r2": 0.9996864403986927,
+    "test_rmse": 0.0008837120983849238,
+    "test_mae": 0.00017990735344300475
+  },
+  "data_info": {
+    "total_samples": 50000,
+    "n_features_original": 20,
+    "n_features_engineered": 29
+  }
+}
